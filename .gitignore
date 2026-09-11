@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.key
+*.pem
+*.p12
+
+# Large datasets
+datasets/*
+!datasets/README.md
+
+# Large model files
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.safetensors
+
+# Generated files
+evidence.jpg
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
